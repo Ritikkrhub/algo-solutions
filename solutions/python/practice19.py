@@ -14,9 +14,10 @@
 # Output:
 # - An integer representing the minimum path sum
 #
-# Status: ✅ SOLVED
+# Status: âœ… SOLVED
 
 def minPathSum(grid):
+    """Return the minimum path sum from the top-left to bottom-right of the grid."""
     if not grid or not grid[0]:
         return 0
     
